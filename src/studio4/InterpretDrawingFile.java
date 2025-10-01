@@ -20,5 +20,11 @@ public class InterpretDrawingFile {
 		File f = new File(chooser.getSelectedFile().getPath());
 		Scanner in = new Scanner(f); //making Scanner with a File
 		
-	}
+		int x = in.nextInt();
+		//Color colorx = newColor(2);
+		StdDraw.setPenColor(255, 109, 18);
+		StdDraw.filledRectangle(0.5, 0.5, 0.2, 0.2);
+	
+}
+
 }
